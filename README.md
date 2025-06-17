@@ -16,5 +16,5 @@ Anleitung:
    falls dieser Fehler kommt (der kommt sehr häufig):
    [ERROR] [1750179025.253228456] [arduino_command_node]: Konnte serielle Verbindung nicht öffnen: [Errno 2] could not open port /dev/ttyUSB1: [Errno 2] No such file or directory: '/dev/ttyUSB1'
 
--> USB Kabel aus und wieder einstecken und sofort darauf "sudo chmode 666 /dev/ttyUSB1" eingeben
+-> USB Kabel aus und wieder einstecken und sofort darauf "sudo chmod 666 /dev/ttyUSB1" eingeben
   (am besten Befehl vor aus/einstecken eingeben sodass man nur auf Enter gehen muss)
