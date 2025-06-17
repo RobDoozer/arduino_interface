@@ -1,5 +1,5 @@
 # arduino_interface
-Schnittstelle zwischen ROS und Arduino (die aktuelle Version 
+Schnittstelle zwischen ROS und Arduino (die aktuelle Version läuft mit dem Input der Entscheidungs node, der Publisher wird nicht mehr benötigt)
 Anleitung:
 1. pyserial Bibliothek installieren(falls nicht vorhanden):
    sudo apt update
