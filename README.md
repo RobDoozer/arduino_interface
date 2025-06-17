@@ -2,16 +2,21 @@
 Schnittstelle zwischen ROS und Arduino (die aktuelle Version läuft mit dem Input der Entscheidungs node, der Publisher wird nicht mehr benötigt)
 Anleitung:
 1. pyserial Bibliothek installieren(falls nicht vorhanden):
+
    sudo apt update
+
    sudo apt install python3-pip
-2. Workspace wechseln:
+   
+   pip3 install pyserial
+
+3. Workspace wechseln:
   cd ~/ros2_ws/src
-3. Paket bauen:
+4. Paket bauen:
   colcon build
-4. sourcen
-5. andere Nodes wie Entscheidungs Bridge und Controller zu ROS starten (dienen als Input)
-6. USB Kabel an den Arduino anschließen
-7. Node starten mit "ros2 run arduino_interface arduino_command_node"
+5. sourcen
+6. andere Nodes wie Entscheidungs Bridge und Controller zu ROS starten (dienen als Input)
+7. USB Kabel an den Arduino anschließen
+8. Node starten mit "ros2 run arduino_interface arduino_command_node"
 
    falls dieser Fehler kommt (der kommt sehr häufig):
    [ERROR] [1750179025.253228456] [arduino_command_node]: Konnte serielle Verbindung nicht öffnen: [Errno 2] could not open port /dev/ttyUSB1: [Errno 2] No such file or directory: '/dev/ttyUSB1'
