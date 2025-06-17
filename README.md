@@ -4,9 +4,9 @@ Anleitung:
 1. pyserial Bibliothek installieren(falls nicht vorhanden):
    sudo apt update
    sudo apt install python3-pip
-2.Workspace wechseln:
+2. Workspace wechseln:
   cd ~/ros2_ws/src
-3.Paket bauen:
+3. Paket bauen:
   colcon build
 4. sourcen
 5. andere Nodes wie Entscheidungs Bridge und Controller zu ROS starten (dienen als Input)
